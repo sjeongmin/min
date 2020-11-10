@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-image: url("https://i.postimg.cc/cZnGkT8X/Composed-layer-1-X.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .content1{
+      width: 1118px;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+
+    img {
+      float: left;
+    }
+    
+    .content1 img{
+      width: 559px;
+      height: 559px;
+    }
+    .clearfix::after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    .content1{
+      margin-top: 342px;
+      margin-bottom: 201px;
+    }    
+
+    .content2{
+      width: 1118px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content2 img:first-child, .content2 img:last-child{
+      width: 1118px; height: 559px;
+    }
+    .content2 img:nth-child(2), .content2 img:nth-child(3){
+      width: 559px; height: 1118px;
+    }
+    .content2{
+      margin-bottom: 200px;
+    }
+    #container{
+        width: 1118px;
+        margin: 0 auto;
+    }
+
+
+	</style>
+</head>
+
+<body>
+	  <div id="container">
+    
+    <div class="content1 clearfix">
+      <img src="https://www.covernat.net/web/upload/NNEditor/20201014/패밀리세일_shop1_143459.jpg">
+      <img src="https://www.covernat.net/file_data/barrels2020/gallery/2020/07/29/32b5beac1b62a3c89fe6b268fd265920.jpg">
+      <img src="https://www.covernat.net/file_data/barrels2020/gallery/2020/07/09/3f0619a5d5072ea85b999a1c2c10e8ee.jpg">
+      <img src="https://www.covernat.net/file_data/barrels2020/gallery/2020/05/25/06aff353ef6b3913208408495ec28f6e.jpg">
+    </div>
+
+    <div class="content2 clearfix">
+        <img src="https://www.covernat.net/file_data/barrels2020/gallery/2020/03/23/dbfe40b9b0a815a3d9d454124b973bb8.jpg" alt="">
+        <img src="https://www.covernat.net/web/upload/NNEditor/20200326/04_shop1_172020.jpg" >
+        <img src="https://www.covernat.net/web/upload/NNEditor/20200326/09_shop1_172021.jpg" alt="">
+        <img src="https://www.covernat.net/file_data/barrels2020/gallery/2020/03/17/01ff1bc8d3c0f961ca8ff19162e1ef65.jpg" class="third" alt="">
+    </div>
+
+  </div>
+	
+</body>
+</html>
